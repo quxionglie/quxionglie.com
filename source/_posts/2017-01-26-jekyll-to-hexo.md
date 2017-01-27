@@ -105,9 +105,50 @@ hexo server
 ```
 hexo generate
 ```
-生成静态文件。
+生成静态文件并放于public目录(如果没有则生成)下。
 
-生成后自动部署:
+参考：[generate](https://hexo.io/docs/commands.html#generate)
+
+## deploy - 发布
+
+将生成的静态文件发布到远程服务器上。
+
+```
+hexo deploy 
+```
+
+修改站点配置文件`_config.yml`，
+```
+deploy:
+  type: git
+  repo:
+```
+
+目前支持的类型有：
+* Git
+
+需安装[hexo-deployer-git](https://github.com/hexojs/hexo-deployer-git)插件。
+
+```
+npm install hexo-deployer-git --save
+```
+
+配置：
+
+```
+deploy:
+  type: git
+  repo: <repository url>
+  branch: [branch]
+  message: [message]   #Default to `Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}`
+```
+
+* Heroku
+* Rsync
+* OpenShift
+* FTPSync
+
+或直接调用下面命令自动生成部署:
 
 ```
 #下面命令是同样的效果
@@ -115,7 +156,9 @@ hexo generate --deploy
 hexo deploy --generate
 ```
 
-参考：[generate](https://hexo.io/docs/generate.html)
+参考：
+[deploy](https://hexo.io/docs/commands.html#deploy)
+[deployment](https://hexo.io/docs/deployment.html)
 
 
 # 安装Next
@@ -310,7 +353,7 @@ duoshuo_shortname: quxionglie
 
 ```
 # Baidu Analytics ID
-baidu_analytics: 36175c8b1958d080e840f34fc69cf52d 
+baidu_analytics: c687eb847b3d4c33885670e6d25d63e7 
 ```
 
 # 集成

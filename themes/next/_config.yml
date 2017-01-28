@@ -265,10 +265,10 @@ mathjax:
 baidu_analytics: 36175c8b1958d080e840f34fc69cf52d
 
 # Duoshuo ShortName
-duoshuo_shortname: quxionglie
+# duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: quxionglie
 
 # Hypercomments
 #hypercomments_id:

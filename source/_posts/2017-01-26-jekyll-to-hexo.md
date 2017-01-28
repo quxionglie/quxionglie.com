@@ -340,6 +340,35 @@ highlight_theme: normal
 since: 2013
 ```
 
+
+## sitemap
+
+```
+npm install hexo-generator-sitemap --save
+```
+
+`hexo generate`后自动生成sitemap.xml 
+
+### robots.txt
+
+把`robots.txt`放在你的hexo站点的source文件下。
+
+robots.txt
+
+```
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+
+Sitemap: https://www.quxionglie.com/sitemap.xml
+```
+
 # 第三方服务
 ## 评论系统
 ### 多说评论

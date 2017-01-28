@@ -1,0 +1,11 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /images/
+
+Sitemap: https://www.quxionglie.com/sitemap.xml

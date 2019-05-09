@@ -78,3 +78,9 @@ feed:
   limit: 20
   hub:
   content:
+
+disqus_proxy: 
+  shortname: quxionglie
+  username: xionglieq
+  host: vpn.quxionglie.com
+  port: 5509    

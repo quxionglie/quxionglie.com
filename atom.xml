@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>阿烈的博客</title>
+  
+  <subtitle>Code,Write,Enjoy life!</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://www.quxionglie.com/"/>
+  <updated>2018-12-03T08:50:28.179Z</updated>
+  <id>https://www.quxionglie.com/</id>
+  
+  <author>
+    <name>lie</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>从Jekyll迁移到Hexo</title>
+    <link href="https://www.quxionglie.com/2017/01/26/jekyll-to-hexo/"/>
+    <id>https://www.quxionglie.com/2017/01/26/jekyll-to-hexo/</id>
+    <published>2017-01-26T11:06:32.000Z</published>
+    <updated>2018-12-03T08:50:28.179Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;我的博客以前由Jekyll搭建，但从 Jekyll 2升级到 Jekyll 3后，我发现自己开始关注于Jekyll及其模板本身而不是博文内容本身。故转而使用Hexo来搭建博客，并更换了更加简洁明快的next主题模板。如果想从Jekyll转到Hexo可以参考本文。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://www.quxionglie.com/categories/hexo/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>事情都没你想的那么简单</title>
+    <link href="https://www.quxionglie.com/2015/04/10/seemingly-simple-yet-very-difficult-feats/"/>
+    <id>https://www.quxionglie.com/2015/04/10/seemingly-simple-yet-very-difficult-feats/</id>
+    <published>2015-04-10T10:10:00.000Z</published>
+    <updated>2018-12-03T08:50:28.178Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;几个月前，项目组有一次开会说要为我们的活动频道集成支付模块，让一些需要交费的活动可以线上付款，免得活动发起人每次在活动举行前都催着交款。有人说，接口集成很快的，最多半天就行了。给人的感觉就像是活动集成支付模块，最多半天/一天的功夫就能集成上去一样。&lt;/p&gt;
+&lt;p&gt;事情真的有那么简单吗？&lt;em&gt;有这么简单就好了&lt;/em&gt;。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://www.quxionglie.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>开发人员需要的技能</title>
+    <link href="https://www.quxionglie.com/2015/04/09/what-skills-do-developer-have/"/>
+    <id>https://www.quxionglie.com/2015/04/09/what-skills-do-developer-have/</id>
+    <published>2015-04-09T01:50:00.000Z</published>
+    <updated>2018-12-03T08:50:28.178Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是我在2012年5月写下的总结性的文章。昨晚我重新阅读了一遍，然后调整了一些内容，但总体的思想没有变。&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;目录&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; 1. 概述&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  2.    开发技术&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   2.1. 编程素养&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   (1）算法类&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   (2) 提升类&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   2.2. 编程语言&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    2.2.1.  Java（或c、c++、c# 等）&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    2.2.2.  脚本语言python(或ruby等)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     (1) 为什么要学脚本语言？&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;     (2) 亲身经历&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   2.3. 集成开发环境IDE [不细谈]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   2.4. 构建工具&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   2.5. 开发最佳实践(具体内容可参考我3月份写的&amp;quot;应用开发部署实践.doc&amp;quot;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    2.5.1.  url怎样才是友好的?&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   2.5.2.   调用第三方接口应该注意什么？&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   2.5.3.   图片处理（压缩，水印等）&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   2.5.4.   测试、设计模式等等&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; 3. 数据库技术[不细谈]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; 4. 其它??（上面提到的都不是本文所讲内容的关键）&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  4.1.  网站架构变迁路线&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   4.1.1.   单机模式&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   4.1.2.   数据库分离&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   4.1.3.   数据库主从复制与读写分离&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   4.1.4.   架设应用服务器集群&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   4.1.5.   数据库分库分表&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   4.1.6.   NoSQL？其它？&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  4.2.  架构变迁带来的问题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    (1) 你如何知道系统的瓶颈在哪？&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   (2)  你如何架设这些服务器？&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   (3)  你如何监控这些服务器？&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   (4)  集群化，对开发的影响？存储、缓存、session等&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;   (5)  数据库扩展(主从复制和读写分离,分库,分表)的过程中,你要做什么？&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  4.3.  日常工作中的问题&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  4.4.  问题的实质是什么？&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; 5. 如何写出高性能的系统?&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; 6. 结论：开发者需要什么技能？&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; 7. 知道结论后，我做了什么？&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt; 8. 参考资料&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="开发" scheme="https://www.quxionglie.com/categories/%E5%BC%80%E5%8F%91/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>迁移到jekyll</title>
+    <link href="https://www.quxionglie.com/2015/03/31/from-octopress-to-jekyll/"/>
+    <id>https://www.quxionglie.com/2015/03/31/from-octopress-to-jekyll/</id>
+    <published>2015-03-31T07:50:00.000Z</published>
+    <updated>2018-12-03T08:50:28.178Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;一直以来都想将博客从Octopress迁移到Jekyll，但本着能用就不动的原则(其实就是”懒”)，一直没有动手。&lt;/p&gt;
+&lt;p&gt;Yesterday, you said tomorrow！&lt;/p&gt;
+&lt;p&gt;与君共勉！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>JAVA垃圾回收入门</title>
+    <link href="https://www.quxionglie.com/2015/03/21/java-gc-basic/"/>
+    <id>https://www.quxionglie.com/2015/03/21/java-gc-basic/</id>
+    <published>2015-03-21T13:04:00.000Z</published>
+    <updated>2018-12-03T08:50:28.178Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;2012年写的笔记。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://pan.baidu.com/s/1jG03A8A&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;点击下载pdf&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="jvm" scheme="https://www.quxionglie.com/categories/jvm/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Fabric-03 fab命令</title>
+    <link href="https://www.quxionglie.com/2014/08/30/learning-fabric3-fab/"/>
+    <id>https://www.quxionglie.com/2014/08/30/learning-fabric3-fab/</id>
+    <published>2014-08-30T00:52:00.000Z</published>
+    <updated>2018-12-03T08:50:28.177Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Fabric最常用的命令行工具是fab。当Fabric安装的时候，我们都能在环境变量中找到它。&lt;/p&gt;
+&lt;p&gt;官方usage说明：&lt;a href=&quot;http://docs.fabfile.org/en/1.9/usage/fab.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;fab options and arguments&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;主要内容&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#1.基本使用方法&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#2.命令行选项&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#3.Per-task参数&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##3.1 Per-task语法定义&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##3.2 角色和主机 Roles and hosts&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="fabric" scheme="https://www.quxionglie.com/categories/fabric/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Fabric-02 主机(Hosts)和角色(Roles)</title>
+    <link href="https://www.quxionglie.com/2014/08/24/learning-fabric2-hosts-and-roles/"/>
+    <id>https://www.quxionglie.com/2014/08/24/learning-fabric2-hosts-and-roles/</id>
+    <published>2014-08-24T06:27:00.000Z</published>
+    <updated>2018-12-03T08:50:28.177Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要内容&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#1.定义主机列表&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##1.1 主机&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##1.2 角色&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#2.如何构建主机列表(host lists) ?&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##2.1 四种主机定义方式&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;###(1)Globally, via env&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;###(2)Globally, via the command line&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;###(3)Per-task, via the command line&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;###(4)Per-task, via decorators&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##2.2 主机定义的优先顺序&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##2.3 测试&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#3. 其它&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##3.1 合并主机列表&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##3.2 重复的主机&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##3.3 不包含指定的主机&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;##3.4 使用execute智能执行task&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="fabric" scheme="https://www.quxionglie.com/categories/fabric/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Fabric-01 安装与使用</title>
+    <link href="https://www.quxionglie.com/2014/08/11/learning-fabric-1-overview-and-tutorial/"/>
+    <id>https://www.quxionglie.com/2014/08/11/learning-fabric-1-overview-and-tutorial/</id>
+    <published>2014-08-11T06:56:00.000Z</published>
+    <updated>2018-12-03T08:50:28.177Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#1.Fabric是什么？&lt;/p&gt;
+&lt;p&gt;Fabric is a Python (2.5-2.7) library and command-line tool for streamlining the use of SSH for application deployment or systems administration tasks.&lt;/p&gt;
+&lt;p&gt;Fabric是一个Python(2.5-2.7)库，可以通过SSH在多个主机上批量执行任务。Fabric非常适合于应用的(自动化)部署或者执行系统管理任务。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="fabric" scheme="https://www.quxionglie.com/categories/fabric/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>linux系列4 - pxe+dhcp+nfs+kickstart无人值守批量安装Centos6.x x64</title>
+    <link href="https://www.quxionglie.com/2014/08/09/linuxxi-lie-4-pxe-plus-dhcp-plus-nfs-plus-kickstartwu-ren-zhi-shou-pi-liang-an-zhuang-centos6-dot-3-x64/"/>
+    <id>https://www.quxionglie.com/2014/08/09/linuxxi-lie-4-pxe-plus-dhcp-plus-nfs-plus-kickstartwu-ren-zhi-shou-pi-liang-an-zhuang-centos6-dot-3-x64/</id>
+    <published>2014-08-09T08:42:00.000Z</published>
+    <updated>2018-12-03T08:50:28.177Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#1. 基本说明&lt;/p&gt;
+&lt;p&gt;相关资料请参考:&lt;br&gt;&lt;a href=&quot;/blog/2013/01/24/pxe-plus-dhcp-plus-nfs-plus-kickstart-centos5-dot-8-x64/&quot;&gt;linux系列2 - pxe+dhcp+nfs+kickstart无人值守批量安装Centos5.8 x64&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;###centos5.x与centos6.x不一致的地方：&lt;br&gt;(1)安装NFS时的RPC程序，centos5.x中叫做portmap，centos6.x叫rpcbind。&lt;/p&gt;
+&lt;p&gt;(2)tftp默认目录，centos5.x时是 /tftpboot ，centos6.x在 /var/lib/tftpboot&lt;/p&gt;
+&lt;p&gt;(3)dhcp配置文件位置, centos5.x时是 /etc/dhcpd.conf ，centos6.x在 /etc/dhcp/dhcpd.conf&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="linux" scheme="https://www.quxionglie.com/categories/linux/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>linux系列3 - 文件与目录权限</title>
+    <link href="https://www.quxionglie.com/2013/07/17/linux-03-permission/"/>
+    <id>https://www.quxionglie.com/2013/07/17/linux-03-permission/</id>
+    <published>2013-07-17T04:45:00.000Z</published>
+    <updated>2018-12-03T08:50:28.177Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文的内容如下： &lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1.linux权限表示   &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;1.1 数字表示法  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;1.2 字符表示化  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2. linux权限相关命令  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	2.1.改变权限属性命令chmod&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	2.2.改变文件所属关系命令chown  &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3.linux文件及目录权限总结   &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4.权限测试前期准备   &lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5.测试user1用户浏览非自己拥有的目录/user2的权限&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="linux" scheme="https://www.quxionglie.com/categories/linux/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用gradle构建项目02-基础使用</title>
+    <link href="https://www.quxionglie.com/2013/07/16/gradle-02-basic-use/"/>
+    <id>https://www.quxionglie.com/2013/07/16/gradle-02-basic-use/</id>
+    <published>2013-07-16T04:01:00.000Z</published>
+    <updated>2018-12-03T08:50:28.177Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文包括以下内容：&lt;br&gt;(1)lib导入/导出&lt;br&gt;(2)代码导入eclipse或IDEA&lt;br&gt;(3)代码执行(java程序与web项目)&lt;br&gt;(4)根据项目环境(local,dev,product等)打包     &lt;/p&gt;
+&lt;p&gt;建议大家遇到问题，先查看一下官方的文档，内容已经非常详细了。&lt;br&gt;&lt;a href=&quot;http://www.gradle.org/documentation&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;http://www.gradle.org/documentation&lt;/a&gt;  &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="gradle" scheme="https://www.quxionglie.com/categories/gradle/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【转】常用IDEA快捷键</title>
+    <link href="https://www.quxionglie.com/2013/06/29/IntelliJ-IDEA-keymap/"/>
+    <id>https://www.quxionglie.com/2013/06/29/IntelliJ-IDEA-keymap/</id>
+    <published>2013-06-29T01:00:00.000Z</published>
+    <updated>2018-12-03T08:50:28.176Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近已经从eclipse转到IntelliJ IDEA，IDEA用起来太顺手了，许多功能正合我意。&lt;br&gt;看到时光印记写的一篇《常用IDEA快捷键》真的不错，特转一下!  &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="idea" scheme="https://www.quxionglie.com/categories/idea/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>centos6.2 64bit上安装pptp与客户端设置</title>
+    <link href="https://www.quxionglie.com/2013/04/14/install-pptp-in-centos6-dot-2-64bit-at-linode/"/>
+    <id>https://www.quxionglie.com/2013/04/14/install-pptp-in-centos6-dot-2-64bit-at-linode/</id>
+    <published>2013-04-14T02:53:00.000Z</published>
+    <updated>2018-12-03T08:50:28.176Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要内容&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;#1.安装软件包&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#2.vi /etc/pptpd.conf 文件&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#3.vi /etc/ppp/options.pptpd&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#4.设置使用 pptpd 的用户名和密码&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#5.修改内核设置/etc/sysctl.conf&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#6.添加 iptables 转发规则&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#7.启动pptpd 服务&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#8.一键安装shell脚本&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#9.pptp客户端连接&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;#10.客户端vpn翻墙设置&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="vpn" scheme="https://www.quxionglie.com/categories/vpn/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Mac下Android开发环境搭建</title>
+    <link href="https://www.quxionglie.com/2013/03/03/install-android-development-environment-in-mac/"/>
+    <id>https://www.quxionglie.com/2013/03/03/install-android-development-environment-in-mac/</id>
+    <published>2013-03-03T03:33:00.000Z</published>
+    <updated>2018-12-03T08:50:28.176Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;基本步骤：   &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;下载Eclipse IDE   &lt;/li&gt;
+&lt;li&gt;下载安装配置Android SDK    &lt;/li&gt;
+&lt;li&gt;安装Android ADT Plugin  &lt;/li&gt;
+&lt;li&gt;Eclipse中配置Android套件  &lt;/li&gt;
+&lt;/ol&gt;
+    
+    </summary>
+    
+      <category term="android" scheme="https://www.quxionglie.com/categories/android/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>在MacOS上安装lua</title>
+    <link href="https://www.quxionglie.com/2013/02/18/install-lua-in-mac-os/"/>
+    <id>https://www.quxionglie.com/2013/02/18/install-lua-in-mac-os/</id>
+    <published>2013-02-18T06:32:00.000Z</published>
+    <updated>2018-12-03T08:50:28.176Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;下午心血来潮，想在MacOS上安装lua，但使用brew install lua安装lua报错，于是使用源码安装。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="lua" scheme="https://www.quxionglie.com/categories/lua/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>使用gradle构建项目01-建立项目目录结构 </title>
+    <link href="https://www.quxionglie.com/2013/02/17/gradle-01-build-project-dir/"/>
+    <id>https://www.quxionglie.com/2013/02/17/gradle-01-build-project-dir/</id>
+    <published>2013-02-17T14:01:00.000Z</published>
+    <updated>2018-12-03T08:50:28.176Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;gradle的目录的结构规范和maven是一样的，我们来看一下Maven标准目录结构  &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="gradle" scheme="https://www.quxionglie.com/categories/gradle/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Centos6.3上编译OpenJDK7源码</title>
+    <link href="https://www.quxionglie.com/2013/02/16/build-openjdk7-in-centos6-dot-3/"/>
+    <id>https://www.quxionglie.com/2013/02/16/build-openjdk7-in-centos6-dot-3/</id>
+    <published>2013-02-16T07:56:00.000Z</published>
+    <updated>2018-12-03T08:50:28.176Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文包括4部分内容：&lt;br&gt;1.基本流程（阅读README和README-builds.html）&lt;br&gt;2.安装基础软件包&lt;br&gt;3.配置变量&lt;br&gt;4.检查环境是否配置ok与编译jdk源码  &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="java" scheme="https://www.quxionglie.com/categories/java/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>linux系列2 - pxe+dhcp+nfs+kickstart无人值守批量安装Centos5.8 x64</title>
+    <link href="https://www.quxionglie.com/2013/01/24/pxe-plus-dhcp-plus-nfs-plus-kickstart-centos5-dot-8-x64/"/>
+    <id>https://www.quxionglie.com/2013/01/24/pxe-plus-dhcp-plus-nfs-plus-kickstart-centos5-dot-8-x64/</id>
+    <published>2013-01-24T10:05:00.000Z</published>
+    <updated>2018-12-03T08:50:28.175Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;上文进到，如果我们要安装几十上百台服务器，如何做呢？总不能一台一台人工安装吧！&lt;br&gt;本文就来解决这个问题，看一下如何实现批量无人值守安装centos5.8 x64。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="linux" scheme="https://www.quxionglie.com/categories/linux/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>linux系列1-centos5.8 x64安装过程</title>
+    <link href="https://www.quxionglie.com/2013/01/22/linux01-install-centos5-dot-8-x64-process/"/>
+    <id>https://www.quxionglie.com/2013/01/22/linux01-install-centos5-dot-8-x64-process/</id>
+    <published>2013-01-22T09:05:00.000Z</published>
+    <updated>2018-12-03T08:50:28.175Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;对于linux初学者来说，鸟哥的linux私房菜是很好的学习教材了。&lt;br&gt;我也是从linux初学者这条路走过来的,目前正在研究linux运维的技术。对于自已学过的东西，总希望留点脚印(但愿不是坑)，让大家少走点弯路。于是想写下这一系列的教程。  &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="linux" scheme="https://www.quxionglie.com/categories/linux/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>导入spring3.2源码到myeclipse中</title>
+    <link href="https://www.quxionglie.com/2013/01/16/import-spring-source-code-into-myeclipse/"/>
+    <id>https://www.quxionglie.com/2013/01/16/import-spring-source-code-into-myeclipse/</id>
+    <published>2013-01-16T08:31:00.000Z</published>
+    <updated>2018-12-03T08:50:28.175Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;spring3.2通过新的基于Gradle的构建来构建项目，它取代了之前的Ant+Ivy系统。&lt;br&gt;本文就介绍如何将spring3.2的源码导入到myeclipse中。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="spring" scheme="https://www.quxionglie.com/categories/spring/"/>
+    
+    
+  </entry>
+  
+</feed>

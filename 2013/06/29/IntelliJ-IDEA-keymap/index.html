@@ -1,0 +1,756 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="阿烈的博客" type="application/atom+xml">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0">
+
+
+
+
+
+
+<meta name="description" content="最近已经从eclipse转到IntelliJ IDEA，IDEA用起来太顺手了，许多功能正合我意。看到时光印记写的一篇《常用IDEA快捷键》真的不错，特转一下!">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【转】常用IDEA快捷键">
+<meta property="og:url" content="https://www.quxionglie.com/2013/06/29/IntelliJ-IDEA-keymap/index.html">
+<meta property="og:site_name" content="阿烈的博客">
+<meta property="og:description" content="最近已经从eclipse转到IntelliJ IDEA，IDEA用起来太顺手了，许多功能正合我意。看到时光印记写的一篇《常用IDEA快捷键》真的不错，特转一下!">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-12-03T08:50:28.176Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="【转】常用IDEA快捷键">
+<meta name="twitter:description" content="最近已经从eclipse转到IntelliJ IDEA，IDEA用起来太顺手了，许多功能正合我意。看到时光印记写的一篇《常用IDEA快捷键》真的不错，特转一下!">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://www.quxionglie.com/2013/06/29/IntelliJ-IDEA-keymap/">
+
+
+
+
+
+  <title> 【转】常用IDEA快捷键 | 阿烈的博客 </title>
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?36175c8b1958d080e840f34fc69cf52d";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">阿烈的博客</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">Code,Write,Enjoy life!</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.quxionglie.com/2013/06/29/IntelliJ-IDEA-keymap/">
+
+  <span style="display:none" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="lie">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="阿烈的博客">
+    <span style="display:none" itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="阿烈的博客" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                【转】常用IDEA快捷键
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2013-06-29T09:00:00+08:00">
+                2013-06-29
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/idea/" itemprop="url" rel="index">
+                    <span itemprop="name">idea</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2013/06/29/IntelliJ-IDEA-keymap/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2013/06/29/IntelliJ-IDEA-keymap/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>最近已经从eclipse转到IntelliJ IDEA，IDEA用起来太顺手了，许多功能正合我意。<br>看到时光印记写的一篇《常用IDEA快捷键》真的不错，特转一下!  </p>
+<a id="more"></a>
+<p>说明一下：类似eclipse outline (Ctrl+o)快捷键在idea里是 Ctrl+F12<br>   ——以下便是全文————  </p>
+<p>原文地址：<a href="http://www.colorfuldays.org/program/idea_keymap/" target="_blank" rel="noopener">http://www.colorfuldays.org/program/idea_keymap/</a> </p>
+<p>先说明一下这篇文章的由来。前天 @旅途无疆 强烈要求我整理一下IDEA的快捷键，于是我答应了。但是昨天实在太忙，没时间整。于是哥被他羞辱了一番，为了不继续丢人下去，哥今天花了将近2小时，整理了下面这些东西，希望对各位看官有用。下面列举的是我在日常开发工作中经常用到的快捷键。    </p>
+<p>声明一下，以下快捷键都是在Mac下的，Windows下的话，会有些不同，请参照Windows版IDEA的keymap文档。   </p>
+<p>一些技巧：<br>在任何时候，按下alt键，界面上的菜单字符中有些会有下划线，这时用alt+下划线即是执行这个菜单功能的快捷键。<br>可自定义一些快捷键，避免使用鼠标。IDEA支持宏，不过我用得不多，只用过那么一两次，使用起来也很简单。 </p>
+<h1 id="视图切换快捷键"><a href="#视图切换快捷键" class="headerlink" title="视图切换快捷键"></a>视图切换快捷键</h1><p>1、各视图区域的切换 cmd + 视图区域对应的数字<br>2、切换到maven的视图 alt + m<br>3、装了switchTab插件后，按下ctrl+tab后会得到可切换的区域列表<br>4、cmd+e                  列出最近查看的文件列表<br>5、shift + cmd + e   最近修改文件列表<br>上面两个键在开发过程中非常有用。  </p>
+<h1 id="搜索快捷键"><a href="#搜索快捷键" class="headerlink" title="搜索快捷键"></a>搜索快捷键</h1><p>IDEA的搜索非常强大，可秒杀eclipse.在project,maven等视图及出现列表的场景下，直接输入字符即开始搜索，可以说搜索无处不在。<br>1、在编辑文档中，cmd+f 开始搜索 cmd + r 搜索替换<br>2、在project中，按下ctrl + shift + f(r) 即是在当前目前下递归查找或替换<br>搜索出来后，要全部替换，按下alt + a<br>3、alt + F7      搜索对象被引用的地方<br>4、cmd + F7   搜索对象在当前文件被引用的地方<br>5、cmd + n     查找类<br>6、shift + cmd + n  查找文件<br>上面两个查找都支持简单的正则表达式，还支持直接按大写字母的缩略查找如JsonTranscoder,只需要输入JT   </p>
+<h1 id="编辑代码的快捷键"><a href="#编辑代码的快捷键" class="headerlink" title="编辑代码的快捷键"></a>编辑代码的快捷键</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">cmd + j                 调出IDEA的神器live template，你懂的</span><br><span class="line">ctrl + n                 各种自动生成代码，创建文件，生成set get override…</span><br><span class="line">alt + enter           调出IDEA对出错点的提示处理方法，熟练使用可使你写代码的速度提升5倍</span><br><span class="line">cmd + D              复制粘贴当前行到下一行</span><br><span class="line">cmd + c|v|x        这些你都懂的</span><br><span class="line">shift + cmd + v  调出IDEA寄存器中保存的最近复制的N份内容，可选择性粘贴</span><br><span class="line">cmd + /                注释/取消注释</span><br><span class="line">cmd + w               选中当前光标所在的字</span><br><span class="line">shift + cmd + enter 神器，补全当前行，最常用的场景时补全当前行后的；号，并将光标定位到下一行</span><br><span class="line">cmd + O              overide 方法</span><br><span class="line">cmd + I                implement 方法</span><br><span class="line">其实上面两个快捷键很少用，因为有alt + enter 可完全替换掉这两个快捷键的功能</span><br><span class="line">shift + cmd + L                   格式化代码</span><br><span class="line">shift + cmd + O                   static import</span><br><span class="line">shift + cmd + up/down    将当前代码段上/下移</span><br><span class="line">shift + alt + up/down       将当前行上/下移</span><br><span class="line">重构的快捷键</span><br><span class="line">F6 移动文件到其它地方</span><br><span class="line">F5 拷贝文件到其它地方</span><br><span class="line">IDEA的移动文件功能非常强大，会将所有的使用该文件的类和XML配置中的类路径全部更新为新的路径。</span><br><span class="line">shift + F6                改名</span><br><span class="line">cmd + F6                 修改方法签名</span><br><span class="line">shift + cmd + F6    修改参数的类型</span><br><span class="line">shift + cmd + v       引入一个局部变量</span><br><span class="line">shift + cmd + p       引入一个参数</span><br><span class="line">shift + cmd + f        引入一个类变量</span><br><span class="line">shift + cmd + m      引入一个方法</span><br><span class="line">shift + cmd + c        引入一个常量</span><br><span class="line">以上都重构最常用的方法了</span><br></pre></td></tr></table></figure>
+<h1 id="查看代码快捷键"><a href="#查看代码快捷键" class="headerlink" title="查看代码快捷键"></a>查看代码快捷键</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">cmd + p                  查询某方法的参数信息</span><br><span class="line">cmd + b                  跳到调用方法的定义处</span><br><span class="line">shift + cmd + b     跳到方法的实现处</span><br><span class="line">cmd + u                  跳到方法在父类或接口的定义处</span><br><span class="line">ctrl + up/down     跳到上/下一方法</span><br><span class="line">alt + cmd + left/right 跳到上/下一次光标查看处</span><br><span class="line">cmd + g                  跳到指定行</span><br><span class="line">cmd + shift + h 显示方法的层级结构</span><br><span class="line">alt + cmd + h 调用层级结构</span><br></pre></td></tr></table></figure>
+<h1 id="运行程序与Debug"><a href="#运行程序与Debug" class="headerlink" title="运行程序与Debug"></a>运行程序与Debug</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">shift + alt + F9             debug模式运行程序</span><br><span class="line">shift + alt + F10           运行程序</span><br><span class="line">F7                                    单步进入</span><br><span class="line">F8                                   单步跳过</span><br><span class="line">F9                                    跳过本次debug</span><br><span class="line">alt + F8                          debug时执行选中的语句</span><br></pre></td></tr></table></figure>
+<h1 id="其它常用快捷键"><a href="#其它常用快捷键" class="headerlink" title="其它常用快捷键"></a>其它常用快捷键</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">cmd + ,                  调出setting界面</span><br><span class="line">cmd + ;                  调出项目setting界面</span><br><span class="line">cmd + f4                关闭当前界面</span><br><span class="line">另外我自己还定制了几个svn相关的快捷键</span><br><span class="line">cmd + alt + ctrl + a         svn add</span><br><span class="line">cmd + alt + ctrl + u         svn update</span><br><span class="line">cmd + alt + ctrl + m        svn commit</span><br><span class="line">cmd + alt + ctrl + h         svn history</span><br><span class="line">cmd + alt + ctrl + c          svn compare</span><br><span class="line">cmd + alt + ctrl + p         将当前编辑界面的内容垂直分屏，在比对文件时非常好用</span><br></pre></td></tr></table></figure>
+<p>(完)</p>
+
+      <script>
+        window.disqusProxy={
+          shortname: 'quxionglie',
+          username: 'xionglieq',
+          server: 'vpn.quxionglie.com',
+          port: 5509,
+          adminAvatar: '/avatars/admin-avatar.jpg',
+          identifier: '2013/06/29/IntelliJ-IDEA-keymap/',
+        };
+        window.disqus_config = function () {
+          this.page.url = window.location.href;
+          this.page.identifier = window.disqusProxy.identifier;
+        };
+      </script>
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2013/04/14/install-pptp-in-centos6-dot-2-64bit-at-linode/" rel="next" title="centos6.2 64bit上安装pptp与客户端设置">
+                <i class="fa fa-chevron-left"></i> centos6.2 64bit上安装pptp与客户端设置
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2013/07/16/gradle-02-basic-use/" rel="prev" title="使用gradle构建项目02-基础使用">
+                使用gradle构建项目02-基础使用 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      
+      <script src="//cdn.bootcss.com/react/16.0.0/umd/react.production.min.js"></script>
+      <script src="//cdn.bootcss.com/react-dom/16.0.0/umd/react-dom.production.min.js"></script>
+      <script src="//cdn.bootcss.com/fetch/2.0.3/fetch.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/blockies-identicon@0.1.0/blockies.min.js"></script>
+      <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <div id="disqus_proxy_thread"><script src="/scripts/hexo-disqus-proxy-primary.js" async></script>
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="lie">
+          <p class="site-author-name" itemprop="name">lie</p>
+          <p class="site-description motion-element" itemprop="description">Yesterday You Said Tomorrow</p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">28</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">17</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#视图切换快捷键"><span class="nav-number">1.</span> <span class="nav-text">视图切换快捷键</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#搜索快捷键"><span class="nav-number">2.</span> <span class="nav-text">搜索快捷键</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#编辑代码的快捷键"><span class="nav-number">3.</span> <span class="nav-text">编辑代码的快捷键</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#查看代码快捷键"><span class="nav-number">4.</span> <span class="nav-text">查看代码快捷键</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#运行程序与Debug"><span class="nav-number">5.</span> <span class="nav-text">运行程序与Debug</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#其它常用快捷键"><span class="nav-number">6.</span> <span class="nav-text">其它常用快捷键</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy;  2012 - 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">lie</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'quxionglie';
+      var disqus_identifier = '2013/06/29/IntelliJ-IDEA-keymap/';
+
+      var disqus_title = "【转】常用IDEA快捷键";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>

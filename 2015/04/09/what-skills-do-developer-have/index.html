@@ -1,0 +1,943 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="阿烈的博客" type="application/atom+xml">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0">
+
+
+
+
+
+
+<meta name="description" content="这是我在2012年5月写下的总结性的文章。昨晚我重新阅读了一遍，然后调整了一些内容，但总体的思想没有变。 123456789101112131415161718192021222324252627282930313233343536373839目录 1. 概述  2.    开发技术   2.1. 编程素养   (1）算法类   (2) 提升类   2.2. 编程语言    2.2.1.  Jav">
+<meta property="og:type" content="article">
+<meta property="og:title" content="开发人员需要的技能">
+<meta property="og:url" content="https://www.quxionglie.com/2015/04/09/what-skills-do-developer-have/index.html">
+<meta property="og:site_name" content="阿烈的博客">
+<meta property="og:description" content="这是我在2012年5月写下的总结性的文章。昨晚我重新阅读了一遍，然后调整了一些内容，但总体的思想没有变。 123456789101112131415161718192021222324252627282930313233343536373839目录 1. 概述  2.    开发技术   2.1. 编程素养   (1）算法类   (2) 提升类   2.2. 编程语言    2.2.1.  Jav">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/01.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/02.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/03.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/04.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/05.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/41.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/42.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/43.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/44.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/45.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/46.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/47.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/48.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/49.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/50.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/51.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/53.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/54.png">
+<meta property="og:image" content="https://www.quxionglie.com/images/2015/0409/55.png">
+<meta property="og:updated_time" content="2018-12-03T08:50:28.178Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="开发人员需要的技能">
+<meta name="twitter:description" content="这是我在2012年5月写下的总结性的文章。昨晚我重新阅读了一遍，然后调整了一些内容，但总体的思想没有变。 123456789101112131415161718192021222324252627282930313233343536373839目录 1. 概述  2.    开发技术   2.1. 编程素养   (1）算法类   (2) 提升类   2.2. 编程语言    2.2.1.  Jav">
+<meta name="twitter:image" content="https://www.quxionglie.com/images/2015/0409/01.png">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://www.quxionglie.com/2015/04/09/what-skills-do-developer-have/">
+
+
+
+
+
+  <title> 开发人员需要的技能 | 阿烈的博客 </title>
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?36175c8b1958d080e840f34fc69cf52d";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">阿烈的博客</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">Code,Write,Enjoy life!</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.quxionglie.com/2015/04/09/what-skills-do-developer-have/">
+
+  <span style="display:none" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="lie">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="阿烈的博客">
+    <span style="display:none" itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="阿烈的博客" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                开发人员需要的技能
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2015-04-09T09:50:00+08:00">
+                2015-04-09
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/开发/" itemprop="url" rel="index">
+                    <span itemprop="name">开发</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2015/04/09/what-skills-do-developer-have/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2015/04/09/what-skills-do-developer-have/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>这是我在2012年5月写下的总结性的文章。昨晚我重新阅读了一遍，然后调整了一些内容，但总体的思想没有变。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br></pre></td><td class="code"><pre><span class="line">目录</span><br><span class="line"> 1. 概述</span><br><span class="line">  2.    开发技术</span><br><span class="line">   2.1. 编程素养</span><br><span class="line">   (1）算法类</span><br><span class="line">   (2) 提升类</span><br><span class="line">   2.2. 编程语言</span><br><span class="line">    2.2.1.  Java（或c、c++、c# 等）</span><br><span class="line">    2.2.2.  脚本语言python(或ruby等)</span><br><span class="line">     (1) 为什么要学脚本语言？</span><br><span class="line">     (2) 亲身经历</span><br><span class="line">   2.3. 集成开发环境IDE [不细谈]</span><br><span class="line">   2.4. 构建工具</span><br><span class="line">   2.5. 开发最佳实践(具体内容可参考我3月份写的&quot;应用开发部署实践.doc&quot;)</span><br><span class="line">    2.5.1.  url怎样才是友好的?</span><br><span class="line">   2.5.2.   调用第三方接口应该注意什么？</span><br><span class="line">   2.5.3.   图片处理（压缩，水印等）</span><br><span class="line">   2.5.4.   测试、设计模式等等</span><br><span class="line"> 3. 数据库技术[不细谈]</span><br><span class="line"> 4. 其它??（上面提到的都不是本文所讲内容的关键）</span><br><span class="line">  4.1.  网站架构变迁路线</span><br><span class="line">   4.1.1.   单机模式</span><br><span class="line">   4.1.2.   数据库分离</span><br><span class="line">   4.1.3.   数据库主从复制与读写分离</span><br><span class="line">   4.1.4.   架设应用服务器集群</span><br><span class="line">   4.1.5.   数据库分库分表</span><br><span class="line">   4.1.6.   NoSQL？其它？</span><br><span class="line">  4.2.  架构变迁带来的问题</span><br><span class="line">    (1) 你如何知道系统的瓶颈在哪？</span><br><span class="line">   (2)  你如何架设这些服务器？</span><br><span class="line">   (3)  你如何监控这些服务器？</span><br><span class="line">   (4)  集群化，对开发的影响？存储、缓存、session等</span><br><span class="line">   (5)  数据库扩展(主从复制和读写分离,分库,分表)的过程中,你要做什么？</span><br><span class="line">  4.3.  日常工作中的问题</span><br><span class="line">  4.4.  问题的实质是什么？</span><br><span class="line"> 5. 如何写出高性能的系统?</span><br><span class="line"> 6. 结论：开发者需要什么技能？</span><br><span class="line"> 7. 知道结论后，我做了什么？</span><br><span class="line"> 8. 参考资料</span><br></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>#1.    概述</p>
+<p>从去年(2011)开始，我就陆续学习jvm调优、数据库调优等知识,但到现在(2012年5月)也只是懂一点皮毛。</p>
+<p>今天春节过来后，开始关注集群与负载均衡方面的内容。2月份北京出差回来后，总结了URL友好性、jvm优化、web组件优化、集群与负载均衡等方面的内容，写了一份《应用开发部署实践》的文档，但许多内容还在完善中。</p>
+<p>这期间看了很多人的博客，对照自身的工作经历，不得不让人有感而发，是要总结点东西才行，于是写下了这篇文章。</p>
+<p>从技术上面说，开发人员需要什么技能？可能每个人的看法都不一样。这里我只写了我个人当前的一些想法，想法对与错? 还需要自己思考辨别，或用时间来证明吧！</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">开发人员需要的技能</span><br><span class="line">(1)编程语言是基础，必须要掌握(怎么样才能称为掌握呢？)。</span><br><span class="line">(2)工作中的最佳实践你是需要了解的。但要明确的是，标准总是在不断变化的，最佳实践可能也会过时，不要让最佳实践阻止了我们持续改进。</span><br><span class="line">(3)数据库知识(备份/还原,sql语句等)要了解吧。</span><br></pre></td></tr></table></figure>
+<p>但仅有这些知识就足够了吗？<br>开发完成了，要上线！上线就要考虑服务器的架设和优化；</p>
+<p>程序或服务不能提供正常的服务了，我们也希望立即得到反馈的吧！</p>
+<p>对一些高并发的应用，你要时时监控服务器(集群)的资源(CPU、IO、内存等的…).</p>
+<p>而且你只有真正去运维自己的系统，你才知道怎么在程序里写日志，做监控，做统计…</p>
+<p>这就是本文所讲内容的重点。</p>
+<p>本文的主要脉络如下：</p>
+<p>(1)    先简要的说明了开发技术和数据库技术。开发技术以java为例，说明了要学习脚本语言(python)、总结开发最佳实践等。但像类似lucune等的技术其实也很重要，但在这里尚未提及。</p>
+<p>(2)    接着以网站架构的变迁路线和自己的工作中的问题为例，说明了开发人员其实还要学习运维。</p>
+<p>(3)    知道结论后，我采取什么行动!</p>
+<!-- more -->
+<h1 id="2-开发技术"><a href="#2-开发技术" class="headerlink" title="2.    开发技术"></a>2.    开发技术</h1><h2 id="2-1-编程素养"><a href="#2-1-编程素养" class="headerlink" title="2.1.    编程素养"></a>2.1.    编程素养</h2><p>###(1）算法篇</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">《算法导论》</span><br><span class="line">《算法（第4版）》 塞奇威克 (Robert Sedgewick) / 韦恩 (Kevin Wayne)</span><br><span class="line">leetcode算法题</span><br></pre></td></tr></table></figure>
+<p>coursera上的一些算法课也不错！</p>
+<p>如果你不满足于信息管理系统的CRUD操作，这块肯定要拿下的。</p>
+<p>###(2) 提升篇</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">《程序员修炼之道》</span><br><span class="line">《黑客与画家》</span><br><span class="line">《Unix编程艺术》</span><br><span class="line">《代码大全》</span><br><span class="line">《Effective Java》</span><br><span class="line">《clean code》</span><br><span class="line">《编写可读代码的艺术》</span><br><span class="line">《编程之美》</span><br><span class="line">《构建之法——现代软件工程》邹欣</span><br><span class="line">《持续交付:发布可靠软件的系统方法》</span><br></pre></td></tr></table></figure>
+<h2 id="2-2-编程语言"><a href="#2-2-编程语言" class="headerlink" title="2.2.    编程语言"></a>2.2.    编程语言</h2><h3 id="2-2-1-Java（或c、c-、c-等）"><a href="#2-2-1-Java（或c、c-、c-等）" class="headerlink" title="2.2.1.    Java（或c、c++、c#等）"></a>2.2.1.    Java（或c、c++、c#等）</h3><p>真正的读好下面几本书，java基础应该很扎实了。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">《Java编程思想》</span><br><span class="line">《Java并发编程实战》</span><br><span class="line">《Effective Java》</span><br><span class="line">《分布式java应用 基础与实践》</span><br></pre></td></tr></table></figure>
+<p>事实上JVM的内存模型理应是Java程序员的基础知识。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">《深入理解Java虚拟机:JVM高级特性与最佳实践(第2版)》</span><br><span class="line">《Java虚拟机规范》</span><br></pre></td></tr></table></figure>
+<p>如果涉及到其它方面(如web开发，网络编程)，当然还要学很多。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">《TCP/IP详解 卷1：协议》</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>基本的应用框架(如Spring/MyBatis、Shiro)及类库(如guava,commons包)肯定要熟悉的, 至少要明白实现的原理，如果能深入研究源码肯定是最好的。</p>
+<h3 id="2-2-2-脚本语言python-或ruby等"><a href="#2-2-2-脚本语言python-或ruby等" class="headerlink" title="2.2.2.    脚本语言python(或ruby等)"></a>2.2.2.    脚本语言python(或ruby等)</h3><h4 id="1-为什么要学脚本语言？"><a href="#1-为什么要学脚本语言？" class="headerlink" title="(1) 为什么要学脚本语言？"></a>(1) 为什么要学脚本语言？</h4><p>为什么要学脚本语言，因为他们实在是太方便了，很多时候我们需要写点小工具或是脚本来帮我们解决问题，你就会发现正规的编程语言太难用了。<br>    脚本语言学习简单上手快速，可以让你摆脱对底层语言的恐惧感，可以让你很快开发出能用得上的小程序。例如：</p>
+<ul>
+<li>处理文本文件，如csv文件，系统产生的log文件等</li>
+<li>遍历本地文件系统 (sys, os, path), 例如写一个程序统计一个目录下所有文件大小并按各种条件排序并保存结果。</li>
+<li>方便与数据库打交道。</li>
+<li>一些测试数据，用脚本语言非常容易生成。</li>
+</ul>
+<p>我为什么要推荐python呢？大家可以看一下Eric Raymond的Why Python?<br>我简单总结python的几个优点：</p>
+<ul>
+<li>它很简单易读;</li>
+<li>它接近自然语言;</li>
+<li>第三方库成熟、适用面广;</li>
+</ul>
+<p>学习参考书：<br>《Python核心编程（第二版）》 （美）丘恩（Chun，W.J.）</p>
+<h4 id="2-亲身经历"><a href="#2-亲身经历" class="headerlink" title="(2) 亲身经历"></a>(2) 亲身经历</h4><p>下面的例子都是我用脚本语言(perl/python)写的。</p>
+<p>(1)    生成测试数据(建行团经常用) </p>
+<p>生成随机数并保存到文件</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/usr/bin/python2.7 </span></span><br><span class="line"><span class="comment"># -*- coding: utf-8 -*- </span></span><br><span class="line"><span class="keyword">import</span> sys </span><br><span class="line"><span class="keyword">import</span> random </span><br><span class="line"> </span><br><span class="line"><span class="string">''' </span></span><br><span class="line"><span class="string">生成随机数并保存到文件（可根据已生成的随机数文件生成） </span></span><br><span class="line"><span class="string">genRand.py   minValue maxValue number bit rand_file  </span></span><br><span class="line"><span class="string">python genRand.py 0 100 10 5 rand_file </span></span><br><span class="line"><span class="string">@args     minValue  值范围最小值 0 </span></span><br><span class="line"><span class="string">@args     maxValue  值范围最小值 1000 </span></span><br><span class="line"><span class="string">@args     number 个数 </span></span><br><span class="line"><span class="string">@args     bit 位数 </span></span><br><span class="line"><span class="string">@args     rand_file 已生成的随机数文件(每行有一个数字串) </span></span><br><span class="line"><span class="string">'''</span> </span><br><span class="line"> </span><br><span class="line">s = set() </span><br><span class="line"> </span><br><span class="line"><span class="comment">#格式化数字 </span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">format</span><span class="params">(v, bit)</span>:</span> </span><br><span class="line">    format_str = <span class="string">'%0'</span>+str(bit)+<span class="string">'d'</span> </span><br><span class="line">    <span class="keyword">return</span> format_str % v </span><br><span class="line"> </span><br><span class="line"><span class="comment">#生成随机数 </span></span><br><span class="line"><span class="function"><span class="keyword">def</span>  <span class="title">rand</span><span class="params">(minValue, maxValue, bit)</span> :</span> </span><br><span class="line">    randint = random.randint(minValue, maxValue) </span><br><span class="line">    v = format(randint, bit) </span><br><span class="line">    <span class="keyword">while</span>  v <span class="keyword">in</span> s :  </span><br><span class="line">        randint = random.randint(minValue, maxValue) </span><br><span class="line">        v = format(randint, bit) </span><br><span class="line">    <span class="keyword">return</span> v </span><br><span class="line">     </span><br><span class="line"><span class="comment">#生成所有随机数 </span></span><br><span class="line"><span class="function"><span class="keyword">def</span>  <span class="title">randAll</span><span class="params">(minValue, maxValue, number , bit)</span>:</span> </span><br><span class="line">    i = <span class="number">0</span> </span><br><span class="line">    rand_list = [] </span><br><span class="line">    <span class="keyword">while</span> i &lt; number : </span><br><span class="line">        i += <span class="number">1</span> </span><br><span class="line">        v = rand(minValue, maxValue , bit) </span><br><span class="line">        s.add(v) </span><br><span class="line">        rand_list.append(v) </span><br><span class="line">    <span class="keyword">return</span> rand_list </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="comment">#从文件中读取随机数 </span></span><br><span class="line"><span class="function"><span class="keyword">def</span>  <span class="title">readRandFile</span><span class="params">(rand_file)</span>:</span> </span><br><span class="line">    f = open(rand_file) </span><br><span class="line">    lines = f.readlines() </span><br><span class="line">    <span class="keyword">for</span> line <span class="keyword">in</span> lines  : </span><br><span class="line">        line=line.rstrip() </span><br><span class="line">        s.add(line) </span><br><span class="line"> </span><br><span class="line"><span class="comment">#将随机数保存到文件中 </span></span><br><span class="line"><span class="function"><span class="keyword">def</span>  <span class="title">writeRandToFile</span><span class="params">(list)</span>:</span> </span><br><span class="line">    fw = open(<span class="string">"out"</span>,<span class="string">'w'</span>) </span><br><span class="line">    <span class="keyword">for</span> v <span class="keyword">in</span> list  : </span><br><span class="line">        fw.write(str(v)+<span class="string">'\n'</span>); </span><br><span class="line"> </span><br><span class="line"> </span><br><span class="line"><span class="keyword">if</span> __name__ == <span class="string">'__main__'</span>: </span><br><span class="line">    lenArgc = len(sys.argv) </span><br><span class="line">    <span class="keyword">if</span> lenArgc &gt;=<span class="number">5</span> :  </span><br><span class="line">        minValue = int(sys.argv[<span class="number">1</span>]) </span><br><span class="line">        maxValue = int(sys.argv[<span class="number">2</span>]) </span><br><span class="line">        number = int(sys.argv[<span class="number">3</span>]) </span><br><span class="line">        bit = int(sys.argv[<span class="number">4</span>]) </span><br><span class="line">        <span class="keyword">if</span> lenArgc &gt; <span class="number">5</span>    : </span><br><span class="line">            rand_file = sys.argv[<span class="number">5</span>]         </span><br><span class="line">            readRandFile(rand_file)    <span class="comment">#从文件中读取随机数     </span></span><br><span class="line"> </span><br><span class="line">        <span class="comment">#生成随机数 </span></span><br><span class="line">        rand_list = randAll(minValue, maxValue, number , bit) </span><br><span class="line">        writeRandToFile(rand_list) </span><br><span class="line">    <span class="keyword">else</span> : </span><br><span class="line">        <span class="keyword">print</span> <span class="string">"参数不正确！"</span></span><br></pre></td></tr></table></figure>
+<p>(2)    读取execl(hui99的操作定义)生成Selenium脚本</p>
+<p>execl的数据列有以下，</p>
+<p><img src="/images/2015/0409/01.png" alt="01"></p>
+<p>用脚本去读取execl文件，获取相关数据信息，生成selenium脚本文件并执行。<br>不生成selenium脚本文件，生成sql文件也行，但并非每个人都能直接操作数据库的。</p>
+<p>(3)    mp3 tag操作</p>
+<p>电脑下了n多mp3文件，你怎么读取mp3里的tag信息，里面的很多标签都乱七八糟的,如何去修改呢?一个一个文件属性去修改？ python里有非常简单的类库。</p>
+<p><img src="/images/2015/0409/02.png" alt="01"></p>
+<p>(4)    文件重命名</p>
+<p>你下载了数G的电视剧/动画片,文件名又乱又长，怎么办？</p>
+<p>我确实遇到过这种事情。</p>
+<p>柯南都500多集，海贼王400多集、棋魂、灌篮高手等，美剧都六七季，一季20集。你就别想手动修改了，会死人的。</p>
+<p>用脚本语言一下了就可以搞定，linux shell也可以轻松制定。</p>
+<p>美好生活就是如此的简单。</p>
+<h2 id="2-3-集成开发环境IDE-不细谈"><a href="#2-3-集成开发环境IDE-不细谈" class="headerlink" title="2.3.    集成开发环境IDE [不细谈]"></a>2.3.    集成开发环境IDE [不细谈]</h2><h2 id="2-4-构建工具"><a href="#2-4-构建工具" class="headerlink" title="2.4.    构建工具"></a>2.4.    构建工具</h2><p>使用自动构建工具的理由：</p>
+<ul>
+<li>(1)    在非图形化界面下构建程序；</li>
+<li>(2)    构建过程繁琐而且步骤固定，自动构建工具比交互式的手动构建省事省心；</li>
+<li>(3)    多人分别为同一个项目工作，需要有统一和一致的构建环境，比如类库依赖。</li>
+</ul>
+<p>ant/maven在几年前还不错，到了现在(2015年)已经略显沉重。我这里推荐gradle。我从13年就开始用gradle,上手简单，值得拥有。</p>
+<h2 id="2-5-开发最佳实践-具体内容可参考我3月份写的”应用开发部署实践-doc”"><a href="#2-5-开发最佳实践-具体内容可参考我3月份写的”应用开发部署实践-doc”" class="headerlink" title="2.5.    开发最佳实践(具体内容可参考我3月份写的”应用开发部署实践.doc”)"></a>2.5.    开发最佳实践(具体内容可参考我3月份写的”应用开发部署实践.doc”)</h2><h3 id="2-5-1-url怎样才是友好的"><a href="#2-5-1-url怎样才是友好的" class="headerlink" title="2.5.1.    url怎样才是友好的?"></a>2.5.1.    url怎样才是友好的?</h3><p>阿烈：为什么我会提到url的问题？</p>
+<p>产品运营天天跟你闹：URL太长了，URL参数太多了，URL太乱了，这样搜索引擎搜不到我们的产品啊？你要怎么办？</p>
+<p><img src="/images/2015/0409/03.png" alt="01"></p>
+<p>###2.5.2.    调用第三方接口应该注意什么？</p>
+<p><img src="/images/2015/0409/04.png" alt="01"></p>
+<p>###2.5.3.    图片处理（压缩，水印等）</p>
+<p>阿烈：为什么hui99的图片处理这么烂？</p>
+<p>压缩的效果太差了!</p>
+<p><img src="/images/2015/0409/05.png" alt="01"></p>
+<p>###2.5.4.    测试、设计模式等等</p>
+<p>#3.    数据库技术[不细谈]</p>
+<p>能有dba级别肯定牛，但这种人可能会比较少。</p>
+<p>但也至少熟练应用mysql(或其它关系数据库), 知道SQL优化。</p>
+<p>#4.    其它??（上面提到的都不是本文所讲内容的关键）</p>
+<p>我们从一个网站从小到大引起的架构变迁，来看待这个问题！</p>
+<p>这里以豆瓣为例。具体内容请点击<a href="http://www.infoq.com/cn/presentations/hongqn-douban" target="_blank" rel="noopener">豆瓣网技术架构变迁</a>。</p>
+<p>##4.1.    网站架构变迁路线</p>
+<p>###4.1.1.    单机模式<br>这一阶段没有太大的访问量，甚至只有一台服务器就搞定了所有的访问。压力不高。<br>应用服务器和数据库放在同一台机子上，前端可能还会架设web服务器(IIS/apache/nginx等)，实现动静分离。</p>
+<p><img src="/images/2015/0409/41.png" alt="01"></p>
+<p><img src="/images/2015/0409/42.png" alt="01"></p>
+<p>###4.1.2.    数据库分离<br>压力增大，出现瓶颈，开始分离数据库。</p>
+<p><img src="/images/2015/0409/43.png" alt="01"></p>
+<p><img src="/images/2015/0409/44.png" alt="01"></p>
+<p><img src="/images/2015/0409/45.png" alt="01"></p>
+<p>###4.1.3.    数据库主从复制与读写分离<br>网站初具规模，DB压力大增，单独的一台DB已经满足不了现在的访问量，开始考虑读写分离的Master-slave库，使用三个及以上的服务器。</p>
+<p>访问量继续增加，增加到了DB的压力在Master的机器上非常的明显了，Master开始出现吃不消的情况，出现写耗尽。主从也已经不能满足要求，需要进一步解决负载问题，此时要引入Mysql Proxy程序，进行中间层代理，实现负载均衡，易于扩展。</p>
+<p>注：读写分离采用的方法是写数据库时在一个数据库上写入，而要读取时则从多个其他的数据库中读取，通常将用于写入的库称为master库，用于读取的库为slave库。读写分离适用于读多写少，并允许一定延时的业务中。</p>
+<p><img src="/images/2015/0409/46.png" alt="01"></p>
+<p><img src="/images/2015/0409/47.png" alt="01"></p>
+<p><img src="/images/2015/0409/48.png" alt="01"></p>
+<p>###4.1.4.    架设应用服务器集群<br>随着访问数的增长，单台应用服务器已经不能响应如此多的请求，必须要架设应用服务器集群了。</p>
+<p><img src="/images/2015/0409/49.png" alt="01"></p>
+<p><img src="/images/2015/0409/50.png" alt="01"></p>
+<p><img src="/images/2015/0409/51.png" alt="01"></p>
+<p>###4.1.5.    数据库分库分表</p>
+<p>在系统发展的初期，通常会将各种不同的数据库放在同一个数据库中，随着业务的多元化及业务的水平伸缩，数据库的连接数会成为稀缺和资源，对于这种情况分库是个不错的选择。</p>
+<p>分库通常按照业务领域将原来存储在同一个数据库的数据拆分到多个数据库中。例如ebay就按照其业务领域分为商品、用户、评价、交易等数据库，每个数据库只用于处理相关业务的数据，因此可用的数据库连接数会得到很大提升。</p>
+<p>分表意味着我们可以将同一数据表中的记录通过特定的算法进行分离，分别保存在不同的数据库表中，从而可以部署在不同的数据库服务器上。</p>
+<p><img src="/images/2015/0409/53.png" alt="01"></p>
+<p><img src="/images/2015/0409/54.png" alt="01"></p>
+<p><img src="/images/2015/0409/55.png" alt="01"></p>
+<p>###4.1.6.    NoSQL？其它？</p>
+<p>##4.2.    架构变迁带来的问题</p>
+<p>####(1)    你如何知道系统的瓶颈在哪？<br>大家也看得出来，访问量的不断增大导致了架构的不断变迁。访问量的增大导致了系统出现瓶颈，而不能满足用户的请求了。</p>
+<p>通常瓶颈的表象是资源消耗过多、外部处理系统的性能不足，或者资源消耗不多，但程序的响应速度却仍达不到要求(建行团有一次秒杀时遇到到这种问题)。</p>
+<p>资源主要消耗在CPU、文件IO、网络IO以及内存方面，机器有资源是有限的，当某资源消耗过多时，通常会造成系统的响应速度慢。</p>
+<p>你怎么知道系统出现了瓶颈了呢？出现的瓶颈在哪里呢？</p>
+<p>###(2)    你如何架设这些服务器？</p>
+<p>###(3)    你如何监控这些服务器？<br>你不监控，你就不知道系统的瓶颈在哪，性能优化、架构变迁也就无从谈起！</p>
+<p>而且网络状况复杂，难以保证7×24小时100%的在线，你当然不希望自己网站或者服务器由于各种原因而不能访问。</p>
+<p>故障的原因主要：</p>
+<ul>
+<li>网站被挂马。网站一旦有漏洞，被挂马是常有的事。</li>
+<li>网站代码出错、数据库出错、网站占CPU太高、空间占满、空间过期。</li>
+<li>域名解析出错、域名过期。</li>
+<li>网站或者服务器由于有害信息、备案等原因被关或封IP。</li>
+<li>网站或者服务器被攻击。同台服务器网站或者网段被攻击也殃及池鱼。</li>
+<li>服务器出现故障或者需要维护。</li>
+<li>网络运营商线路出现故障，特别是南北互通。</li>
+</ul>
+<p>很多故障是不定时、不可预料的。最勤快的站长网管都不可能24小时去刷新网页，去Ping服务器。这自然需要自动的监控服务。</p>
+<p>###(4)    集群化，对开发的影响？存储、缓存、session等</p>
+<p>###(5)    数据库扩展(主从复制和读写分离,分库,分表)的过程中,你要做什么？</p>
+<p>##4.3.    日常工作中的问题</p>
+<p>也许大家会说，我们的网站的访问量这么少，还没有必要考虑上面的问题。<br>好，我列出工作中一些问题:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">(1)	为什么我们的服务器都是windows机器，而不是linux</span><br><span class="line">(2)	hui99存储空间不足，导致hui99邮件服务器挂掉。</span><br><span class="line">(3)	北京农商行,手机银行服务端连接到网银服务器，为什么自己写负载均衡策略？</span><br><span class="line">(4)	为什么建行团，迁移机房后，远程登录用户不用administrator了。</span><br><span class="line">(5)	21的数据服务器僵死，导致hui99的tomcat线程到达200,而不能提供正常服务！(2012-03-25)</span><br><span class="line">(6)	建行团有一个200M的日志文件，你如何查看其内容？如果是2G的呢?(一般的文件编辑器打不开这么大的)</span><br><span class="line">(7)	建行团秒杀过程中，如何监控CPU，内存，磁盘IO等？</span><br><span class="line">(8)	如何提供7*24*365的服务(项目更新必须停机重起，服务会暂停)?</span><br><span class="line">(9) ...</span><br></pre></td></tr></table></figure>
+<p>##4.4.    问题的实质是什么？</p>
+<p>服务器（集群）架设。</p>
+<p>服务器的监控。</p>
+<p>服务器的优化。</p>
+<p>服务器的安全。</p>
+<p>。。。</p>
+<p>实现这些，你还需要掌握运维的知识。</p>
+<p>那什么是运维呢？<br>运维关键技术点：</p>
+<ul>
+<li>大量高并发网站的设计方案 ；</li>
+<li>高可靠、高可伸缩性网络架构设计；</li>
+<li>网站安全问题，如何避免被黑？</li>
+<li>南北互联问题,动态CDN解决方案；</li>
+<li>海量数据存储架构;</li>
+<li>等等…</li>
+</ul>
+<p>#5.    如何写出高性能的系统?<br>从当当网上搜”高性能”，你可以看到下面列出来的图书：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">《高性能Linux服务器构建实战:运维监控、性能调优与集群应用》</span><br><span class="line">《高性能网站建设指南》</span><br><span class="line">《高性能MYSQL影印版》</span><br><span class="line">《构建高性能Web站点》</span><br><span class="line">《实战Nginx：取代Apache的高性能Web服务器》</span><br><span class="line">………</span><br></pre></td></tr></table></figure>
+<p>一个高性能的系统，不仅涉及到开发的程序代码，也与服务器、数据库、web服务器等息息相关。</p>
+<p>罗马不是一日建成的，高性能系统不是一下子就能实现的？高性能系统是PDCA（Plan Do Check Act）持续改善的过程，是开发、上线、监控、优化反复循环的过程。</p>
+<p>#6.    结论：开发者需要什么技能？</p>
+<p>(1)    开发技术</p>
+<p>(2)    数据库技术</p>
+<p>(3)    运维技术</p>
+<p>技术之间是相辅相成的。</p>
+<p>#7.    知道结论后，我做了什么？</p>
+<p>(1)    学习linux</p>
+<p>(2)    参加运维培训班</p>
+<p>(3)    学习python</p>
+<p>(4)    多思考、总结、实践</p>
+<p>#8.    参考资料<br>(1)    Java应用运维 by bluedavy </p>
+<p><a href="http://blog.bluedavy.com/?p=363" target="_blank" rel="noopener">http://blog.bluedavy.com/?p=363</a></p>
+<p>(2)    我们需要专职的QA吗？ by 陈皓</p>
+<p><a href="http://coolshell.cn/articles/6994.html" target="_blank" rel="noopener">http://coolshell.cn/articles/6994.html</a></p>
+<p>(3)    程序员技术练级攻略 by 陈皓</p>
+<p><a href="http://coolshell.cn/articles/4990.html" target="_blank" rel="noopener">http://coolshell.cn/articles/4990.html</a></p>
+<p>(4)    Why Python? By Eric Raymond</p>
+<p><a href="http://www.linuxjournal.com/article/3882" target="_blank" rel="noopener">http://www.linuxjournal.com/article/3882</a></p>
+<p>Eric Raymond的Why Python?的中文翻译</p>
+<p><a href="http://blog.donews.com/ygao/archive/2005/10/25/602051.aspx" target="_blank" rel="noopener">http://blog.donews.com/ygao/archive/2005/10/25/602051.aspx</a></p>
+<p>(5)    程序员需要具备的基本技能 by 陈皓</p>
+<p><a href="http://coolshell.cn/articles/428.html" target="_blank" rel="noopener">http://coolshell.cn/articles/428.html</a></p>
+<hr>
+<p>初稿写于2012年5月，2015年4月9日修改了部分内容。</p>
+<p>(全书完)</p>
+
+      <script>
+        window.disqusProxy={
+          shortname: 'quxionglie',
+          username: 'xionglieq',
+          server: 'vpn.quxionglie.com',
+          port: 5509,
+          adminAvatar: '/avatars/admin-avatar.jpg',
+          identifier: '2015/04/09/what-skills-do-developer-have/',
+        };
+        window.disqus_config = function () {
+          this.page.url = window.location.href;
+          this.page.identifier = window.disqusProxy.identifier;
+        };
+      </script>
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2015/03/31/from-octopress-to-jekyll/" rel="next" title="迁移到jekyll">
+                <i class="fa fa-chevron-left"></i> 迁移到jekyll
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2015/04/10/seemingly-simple-yet-very-difficult-feats/" rel="prev" title="事情都没你想的那么简单">
+                事情都没你想的那么简单 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      
+      <script src="//cdn.bootcss.com/react/16.0.0/umd/react.production.min.js"></script>
+      <script src="//cdn.bootcss.com/react-dom/16.0.0/umd/react-dom.production.min.js"></script>
+      <script src="//cdn.bootcss.com/fetch/2.0.3/fetch.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/blockies-identicon@0.1.0/blockies.min.js"></script>
+      <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <div id="disqus_proxy_thread"><script src="/scripts/hexo-disqus-proxy-primary.js" async></script>
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="lie">
+          <p class="site-author-name" itemprop="name">lie</p>
+          <p class="site-description motion-element" itemprop="description">Yesterday You Said Tomorrow</p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">28</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">17</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#2-开发技术"><span class="nav-number">1.</span> <span class="nav-text">2.    开发技术</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#2-1-编程素养"><span class="nav-number">1.1.</span> <span class="nav-text">2.1.    编程素养</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-2-编程语言"><span class="nav-number">1.2.</span> <span class="nav-text">2.2.    编程语言</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-1-Java（或c、c-、c-等）"><span class="nav-number">1.2.1.</span> <span class="nav-text">2.2.1.    Java（或c、c++、c#等）</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2-2-脚本语言python-或ruby等"><span class="nav-number">1.2.2.</span> <span class="nav-text">2.2.2.    脚本语言python(或ruby等)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-为什么要学脚本语言？"><span class="nav-number">1.2.2.1.</span> <span class="nav-text">(1) 为什么要学脚本语言？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-亲身经历"><span class="nav-number">1.2.2.2.</span> <span class="nav-text">(2) 亲身经历</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-3-集成开发环境IDE-不细谈"><span class="nav-number">1.3.</span> <span class="nav-text">2.3.    集成开发环境IDE [不细谈]</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-4-构建工具"><span class="nav-number">1.4.</span> <span class="nav-text">2.4.    构建工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-5-开发最佳实践-具体内容可参考我3月份写的”应用开发部署实践-doc”"><span class="nav-number">1.5.</span> <span class="nav-text">2.5.    开发最佳实践(具体内容可参考我3月份写的”应用开发部署实践.doc”)</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-5-1-url怎样才是友好的"><span class="nav-number">1.5.1.</span> <span class="nav-text">2.5.1.    url怎样才是友好的?</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy;  2012 - 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">lie</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'quxionglie';
+      var disqus_identifier = '2015/04/09/what-skills-do-developer-have/';
+
+      var disqus_title = "开发人员需要的技能";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>

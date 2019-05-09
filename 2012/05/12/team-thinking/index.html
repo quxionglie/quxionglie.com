@@ -1,0 +1,790 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="阿烈的博客" type="application/atom+xml">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0">
+
+
+
+
+
+
+<meta name="description" content="目录 1234567891.	团队思考 1.1.	toruk框架的启示 1.2.	hui99的问题 1.3.	cmmi3评估中暴露的问题  (1)	杨ting在访谈前背&amp;quot;答案&amp;quot;时才知道OSSP是什么？  (2)	我们作为“编码测试”人员，在访谈时却被问了许多需求设计、配置、QA的问题，我们几个人都没回答上来。 1.4.	代码是否可以共享?2. 员工、团队与成长3. 总结 团队思">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于团队一些思考">
+<meta property="og:url" content="https://www.quxionglie.com/2012/05/12/team-thinking/index.html">
+<meta property="og:site_name" content="阿烈的博客">
+<meta property="og:description" content="目录 1234567891.	团队思考 1.1.	toruk框架的启示 1.2.	hui99的问题 1.3.	cmmi3评估中暴露的问题  (1)	杨ting在访谈前背&amp;quot;答案&amp;quot;时才知道OSSP是什么？  (2)	我们作为“编码测试”人员，在访谈时却被问了许多需求设计、配置、QA的问题，我们几个人都没回答上来。 1.4.	代码是否可以共享?2. 员工、团队与成长3. 总结 团队思">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-12-03T08:50:28.175Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="关于团队一些思考">
+<meta name="twitter:description" content="目录 1234567891.	团队思考 1.1.	toruk框架的启示 1.2.	hui99的问题 1.3.	cmmi3评估中暴露的问题  (1)	杨ting在访谈前背&amp;quot;答案&amp;quot;时才知道OSSP是什么？  (2)	我们作为“编码测试”人员，在访谈时却被问了许多需求设计、配置、QA的问题，我们几个人都没回答上来。 1.4.	代码是否可以共享?2. 员工、团队与成长3. 总结 团队思">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://www.quxionglie.com/2012/05/12/team-thinking/">
+
+
+
+
+
+  <title> 关于团队一些思考 | 阿烈的博客 </title>
+</head>
+
+<body itemscope="" itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?36175c8b1958d080e840f34fc69cf52d";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">阿烈的博客</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <p class="site-subtitle">Code,Write,Enjoy life!</p>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope="" itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.quxionglie.com/2012/05/12/team-thinking/">
+
+  <span style="display:none" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="lie">
+    <meta itemprop="description" content="">
+    <meta itemprop="image" content="/images/avatar.png">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="阿烈的博客">
+    <span style="display:none" itemprop="logo" itemscope="" itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="阿烈的博客" src="">
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                关于团队一些思考
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2012-05-12T16:16:00+08:00">
+                2012-05-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
+                  <a href="/categories/dev/" itemprop="url" rel="index">
+                    <span itemprop="name">dev</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2012/05/12/team-thinking/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="2012/05/12/team-thinking/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>目录</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">1.	团队思考</span><br><span class="line"> 1.1.	toruk框架的启示</span><br><span class="line"> 1.2.	hui99的问题</span><br><span class="line"> 1.3.	cmmi3评估中暴露的问题</span><br><span class="line">  (1)	杨ting在访谈前背&quot;答案&quot;时才知道OSSP是什么？</span><br><span class="line">  (2)	我们作为“编码测试”人员，在访谈时却被问了许多需求设计、配置、QA的问题，我们几个人都没回答上来。</span><br><span class="line"> 1.4.	代码是否可以共享?</span><br><span class="line">2. 员工、团队与成长</span><br><span class="line">3. 总结</span><br></pre></td></tr></table></figure>
+<h1 id="团队思考"><a href="#团队思考" class="headerlink" title="团队思考"></a>团队思考</h1><h2 id="toruk框架的启示"><a href="#toruk框架的启示" class="headerlink" title="toruk框架的启示"></a>toruk框架的启示</h2><p>toruk框架目标</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a)	相对于hui99使用的spring+ibatis2框架（或其它框架），使开发过程更加简单，提高效率;</span><br><span class="line">b)	使公司具有不可替代的元素。turuk便是其中之一。</span><br></pre></td></tr></table></figure>
+<p>(1)    如果想开发过程简单，是否有更好的开源框架(技术/方案)?<br>如使用spring3 REST风格，使用Spring的注释式编程！<br>(2)    如果非要开发toruk，是否数据库这块可重用ibatis2而不是重新造轮子？<br>(3)    部分项目已经使用了toruk框架，可能以后还有项目会用到。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">toruk的研发人员全部离职之后，toruk框架的理念、技术、知识、代码真的传下来了吗？</span><br><span class="line">还有人非常了解toruk的源码吗？</span><br><span class="line">还有人去主导toruk的研发吗？</span><br><span class="line">toruk存在的bug，还会有人去fix吗?</span><br><span class="line">toruk还会在公司存活多久呢？</span><br></pre></td></tr></table></figure>
+<p>(4)    toruk（或其它）的知识为什么没有完全成为公司的财产，而随着人员的流失而流失了？是什么原因造成了这些问题？</p>
+<h2 id="hui99的问题"><a href="#hui99的问题" class="headerlink" title="hui99的问题"></a>hui99的问题</h2><p>hui99有很多频道：机票、酒店、旅游、团购、租车、购物、电子优惠券、手机充值、社区等, 还有一个IVR系统在使用！去年年底的时候又加了一个分销商/积分系统上去。当初开发分配任务时，基本上都是每个频道由某个人单独负责的。从去年开始，陆续有人离职了，项目转由我整体负责了。但我对其它各频道业务不是很清楚，而相关负责的人已经离职，没有留下太多的文档（或文档已经过时），代码风格不一（包括缩进、代码的格式化都或多或少有点问题）、结构混乱,中间夹杂点小bug，也确实让人头痛。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">(1)	“每个人按照频道划分开发任务”，这种任务分配的模式是否过时？</span><br><span class="line">或者说每个频道的功能还可以分得细一点，然后团队一起开发。或每个频道进行交叉开发。</span><br><span class="line">(2)	开发过程中，团队间是否可以评审一下代码，而保持风格的一致性?</span><br><span class="line">(3)	同事离职了，你怎样才能更快的理解他的负责频道（或模块）业务和代码？</span><br></pre></td></tr></table></figure>
+<h2 id="cmmi3评估中暴露的问题"><a href="#cmmi3评估中暴露的问题" class="headerlink" title="cmmi3评估中暴露的问题"></a>cmmi3评估中暴露的问题</h2><p>公司今年过完年之后，确定实施CMMI3评审，而评审工作在4月份开始进行。两个月时间，四个项目(三个虚假项目),上千个文档需要准备。4月10多号开始背”答案”，4月22日开始访谈，我是作为”编码测试”人员进行访谈的。<br>    评审过程中，有两件事情让我印象比较深刻：</p>
+<h3 id="杨ting在访谈前背”答案”时才知道OSSP是什么？"><a href="#杨ting在访谈前背”答案”时才知道OSSP是什么？" class="headerlink" title="杨ting在访谈前背”答案”时才知道OSSP是什么？"></a>杨ting在访谈前背”答案”时才知道OSSP是什么？</h3><p>她已经写文档两个月了，所有的CMMI3的流程和文档都是根据OSSP来编写的。<br>这是谁的问题？个人问题？石老师(培训老师)的问题？CMMI负责人的问题？公司培训的问题？…<br>这到底是什么问题？如何去解决这个问题？</p>
+<h3 id="我们作为“编码测试”人员，在访谈时却被问了许多需求设计、配置、QA的问题，我们几个人都没回答上来。"><a href="#我们作为“编码测试”人员，在访谈时却被问了许多需求设计、配置、QA的问题，我们几个人都没回答上来。" class="headerlink" title="我们作为“编码测试”人员，在访谈时却被问了许多需求设计、配置、QA的问题，我们几个人都没回答上来。"></a>我们作为“编码测试”人员，在访谈时却被问了许多需求设计、配置、QA的问题，我们几个人都没回答上来。</h3><p>几天背”答案”下来没有什么效果，主任评估师都没问到（你想让他问的）问题上。CMMI中编码测试不是编码测试人员的问题，团队成员间的工作都是有关联的。<br>在团队中，你知道别人做的具体工作吗？你知道别人的工作对你的影响吗？你真的知道你负责工作的内容吗？</p>
+<h2 id="代码是否可以共享"><a href="#代码是否可以共享" class="headerlink" title="代码是否可以共享?"></a>代码是否可以共享?</h2><p>去年年底的时候，建行团要改版（代理商版）。<br>具体的开发任务分配是：国栋负责平台后台、我负责分行后台、杨文涛负责商户后台。其中有一个功能模块：团购商品状态转换的, 平台、分行、商户后台都有涉及到，商户后台只有”提交审核”的操作，但分行后台和平台后台包括商品状态的所有操作。<br>基本功能介绍如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">商品状态：暂存、待审核、上架。</span><br><span class="line">相关操作有：提交审核、上架、下架、重新编辑。</span><br><span class="line">状态转换关系是：</span><br><span class="line">暂存		－提交审核	－&gt;	待审核</span><br><span class="line">待审核	－上架	    －&gt;	上架</span><br><span class="line">上架		－下架       －&gt;	待审核</span><br><span class="line">待审核	－重新编辑	－&gt; 暂存</span><br></pre></td></tr></table></figure>
+<p>我在任务确定后，就忙着做其它项目去了。我一回来，就code自已负责的代码去了。</p>
+<p>但问题来了,状态转换的操作我是通过商品状态机类ProductStateMachine实现的，其它地方要用的话直接调就行了，商户后台这边则是直接操作数据库。同样的功能，实现的方式不同，方法的命名不同，若不修改就会给后期的维护带来问题。</p>
+<p>为什么会出现此类的问题呢？任务确定之后，各人只埋头负责自己的部分，而完全不理会其他人的工作，只要功能实现了，其它的都是小问题。事实真的是这样吗？当别人提出你的功能有更好的实现方案时，所有人都会心甘情愿的修改自己”辛辛苦苦”写的代码吗？团队代码风格、方法命名等如何保持一致呢？…</p>
+<p>你也许会觉得责任在于分配任务的人，为什么分的任务会有交叉呢？但(1)是人总会犯点错;(2)这就好像项目的成败决定于分配任务的人一样，个人决定成败，而非整个团队。</p>
+<p>可以思考的问题：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">(1)	任务为什么要这么分？是不是可以做得更好？</span><br><span class="line">(2)	代码是否可以共享?</span><br></pre></td></tr></table></figure>
+<h1 id="员工、团队与成长"><a href="#员工、团队与成长" class="headerlink" title="员工、团队与成长"></a>员工、团队与成长</h1><p>新人进公司一年多来快速成长了吗?如果没成长，是招聘时看错人了吗？是员工的个人问题，还是公司或团队本身的问题？</p>
+<p>公司需要生存发展，员工需要更好的工资(尤其是物价在疯涨的时候)、更好的发展，公司与员工是互相博弈的过程。</p>
+<p>薪资不高、没有发展、没有成长，这不是在耽误人家的宝贵青春吗？</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">但公司的发展靠的是人啊？</span><br><span class="line">(1)	好的氛围，才会引入、留住好的人。</span><br><span class="line">(2)	好的人，才会有好的制度，并且保持好这个制度，毕竟制度是人定的。</span><br><span class="line">(3)	好的人和好的制度，才会遇到好的客户。</span><br></pre></td></tr></table></figure>
+<p>是先有项目才有人，还是有了人，才会有项目？</p>
+<p>做项目是仅仅为了做项目吗？如何打造一个全面成功的项目？</p>
+<p>项目开发中，团队真的在成长吗？</p>
+<p>《走出软件作坊》     阿朱</p>
+<blockquote>
+<p>在项目管理中，我发现人是最重要的，但是很遗憾，总是能看到不少心胸狭窄、眼光短浅的老板，把员工当傻瓜，把客户当傻子。其实人对了，世界就对了。</p>
+</blockquote>
+<p>《从优秀到卓越》    柯林斯</p>
+<blockquote>
+<p>实现跨越公司的领导者首先是设法得到合适的人才（不合适的下车），然后才决定将汽车开向何方。</p>
+</blockquote>
+<p> 五年思想工作者 梦想风暴</p>
+<blockquote>
+<p>去年带了一个项目，在那个项目里，我做了一个尝试。我把项目的目标订在了人才培养，而非传统意义的交付。于是，在这个过程中，我花了大量的精力去教新员工写代码，帮他们设定个人成长目标，教他们做事，带着他们吃好玩好……就是这样一个几乎都是由新ThoughtWorker——甚至大多是毕业生——组成的项目组，后来，这个项目成了Michael Chen口中最接近他心目中全面成功的项目。</p>
+</blockquote>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><ul>
+<li>员工离职之后，知识、经验会留下来吗？</li>
+<li>团队中的知识在流通吗？</li>
+<li>项目中，团队成员在成长吗？团队在成长吗？团队会反思总结吗？</li>
+<li>除了员工自我驱动外，公司有为员工做过职业规划吗？</li>
+<li>团队怎样才能写出更好的代码(Beautiful Code)？</li>
+</ul>
+<hr>
+<p>你需要什么样的团队?</p>
+
+      <script>
+        window.disqusProxy={
+          shortname: 'quxionglie',
+          username: 'xionglieq',
+          server: 'vpn.quxionglie.com',
+          port: 5509,
+          adminAvatar: '/avatars/admin-avatar.jpg',
+          identifier: '2012/05/12/team-thinking/',
+        };
+        window.disqus_config = function () {
+          this.page.url = window.location.href;
+          this.page.identifier = window.disqusProxy.identifier;
+        };
+      </script>
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2012/03/26/managing-hierarchical-data-in-oracle-4/" rel="next" title="基于左右值的无限级分类算法-oracle实现04">
+                <i class="fa fa-chevron-left"></i> 基于左右值的无限级分类算法-oracle实现04
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2013/01/03/start-here-2013/" rel="prev" title="2012简单总结与2013展望">
+                2012简单总结与2013展望 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+      
+      <script src="//cdn.bootcss.com/react/16.0.0/umd/react.production.min.js"></script>
+      <script src="//cdn.bootcss.com/react-dom/16.0.0/umd/react-dom.production.min.js"></script>
+      <script src="//cdn.bootcss.com/fetch/2.0.3/fetch.min.js"></script>
+      <script src="//cdn.jsdelivr.net/npm/blockies-identicon@0.1.0/blockies.min.js"></script>
+      <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+      <div id="disqus_proxy_thread"><script src="/scripts/hexo-disqus-proxy-primary.js" async></script>
+        <noscript>
+          Please enable JavaScript to view the
+          <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a>
+        </noscript>
+      </div>
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="lie">
+          <p class="site-author-name" itemprop="name">lie</p>
+          <p class="site-description motion-element" itemprop="description">Yesterday You Said Tomorrow</p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">28</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">17</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#团队思考"><span class="nav-number">1.</span> <span class="nav-text">团队思考</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#toruk框架的启示"><span class="nav-number">1.1.</span> <span class="nav-text">toruk框架的启示</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#hui99的问题"><span class="nav-number">1.2.</span> <span class="nav-text">hui99的问题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#cmmi3评估中暴露的问题"><span class="nav-number">1.3.</span> <span class="nav-text">cmmi3评估中暴露的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#杨ting在访谈前背”答案”时才知道OSSP是什么？"><span class="nav-number">1.3.1.</span> <span class="nav-text">杨ting在访谈前背”答案”时才知道OSSP是什么？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#我们作为“编码测试”人员，在访谈时却被问了许多需求设计、配置、QA的问题，我们几个人都没回答上来。"><span class="nav-number">1.3.2.</span> <span class="nav-text">我们作为“编码测试”人员，在访谈时却被问了许多需求设计、配置、QA的问题，我们几个人都没回答上来。</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#代码是否可以共享"><span class="nav-number">1.4.</span> <span class="nav-text">代码是否可以共享?</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#员工、团队与成长"><span class="nav-number">2.</span> <span class="nav-text">员工、团队与成长</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#总结"><span class="nav-number">3.</span> <span class="nav-text">总结</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy;  2012 - 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">lie</span>
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'quxionglie';
+      var disqus_identifier = '2012/05/12/team-thinking/';
+
+      var disqus_title = "关于团队一些思考";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+        var disqus_config = function () {
+            this.page.url = disqus_url;
+            this.page.identifier = disqus_identifier;
+            this.page.title = disqus_title;
+        };
+        run_disqus_script('embed.js');
+      
+
+    </script>
+  
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+</body>
+</html>

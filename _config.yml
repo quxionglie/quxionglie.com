@@ -70,8 +70,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:quxionglie/quxionglie.com.git
-  branch: deploy
+  repo: ssh://git@git.quxionglie.com:52003/~/quxionglie.com.git
 
 feed:
   type: atom

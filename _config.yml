@@ -82,5 +82,5 @@ feed:
 disqus_proxy: 
   shortname: quxionglie
   username: xionglieq
-  host: vpn.quxionglie.com
-  port: 5509    
+  host: disqus.quxionglie.com
+  port: 443    

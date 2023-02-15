@@ -12,3 +12,15 @@ hexo server
 ```
 
 浏览器打开[http://localhost:4000/](http://localhost:4000/)查看效果。
+
+发布新文章
+```
+hexo new [layout] <title>
+```
+如 hexo new post "talk about chatgpt"
+
+
+发布
+```shell
+hexo clean && hexo generate --deploy
+```

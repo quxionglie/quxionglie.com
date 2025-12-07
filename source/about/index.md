@@ -10,5 +10,3 @@ Code，Write，Enjoy life！
 # 联系我
 
 github: 	<http://github.com/quxionglie>
-
-twitter: 	<http://twitter.com/quxionglie>

@@ -18,7 +18,7 @@ categories:
 
 <!-- more -->
 
-# 1.奖金计算
+# 1 奖金计算
 基本思想：第 N 名应该赚取与第 (N+1) 名和第 (N+2) 名加起来一样多，相当于斐波那契数列的分配。实际分配跟这个有出入，但数额不会有太大变化。
 
 如总比赛奖金100w，共有16个队列参赛，只奖励前8名队列。则分配规则如下：
@@ -55,7 +55,7 @@ categories:
 | 9-12   | $16,000  | 
 | 13-16  | $10,000  | 
 
-# 2.积分计算
+# 2 积分计算
 
 比赛排名系统是用于评估和排序参赛者（选手、队伍）竞技水平的数学模型或算法，最经典和广泛使用的是 埃洛等级分系统 (Elo Rating System)，它通过比赛胜负结果，动态调整分数，衡量相对实力，并用于国际象棋、围棋、足球、篮球、电子竞技（如《英雄联盟》、《王者荣耀》）等各种竞技活动中，以实现公平匹配和精准排名。
 
@@ -150,5 +150,12 @@ Vitality在2024年9月4日的排名积分为1966.7，以下是Valve排名系统�
 即：400 + ( ( 0.789 - 0.000 ) / ( 0.808 - 0.000 ) ) * 1600 = 1963.3
 
 最终排名值（1966.7）=起始排名值 （1963.3）+正面交锋调整（3.4）
+
+# 3 参考资料：
+[比赛里怎么分钱？](https://www.reddit.com/r/esports/comments/10j0knv/how_to_distribute_the_money_in_a_tournament/?tl=zh-hans)
+[Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system)
+[Elo等级分制度（Elo Rating System）的原理](https://blog.csdn.net/qq_36798713/article/details/120046812)
+[《CS2》战队排名积分计算规则介绍](https://gl.ali213.net/html/2025-5/1645373.html)
+[游戏排名算法：Elo、Glicko、TrueSkill](https://www.biaodianfu.com/elo-glicko-trueskill.html)
 
 -- end --

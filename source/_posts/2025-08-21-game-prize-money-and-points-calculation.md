@@ -1,5 +1,5 @@
 ---
-title: 浅谈比赛奖金与对战积分计算
+title: 浅谈比赛奖金分配与对战积分计算
 date: 2025-08-21 17:29:30
 tags:
 comments: true

@@ -1,17 +1,17 @@
 ---
-title: linux 学习笔记
+title: 《Linux学习笔记》集合
 date: 2023-12-27 17:19:12
 comments: true
 categories: linux
 ---
 
-点击 [linux 学习笔记](https://www.quxionglie.com/learn-linux-notes/) 查看在线版本。
+点击 [Linux学习笔记](https://www.quxionglie.com/learn-linux-notes/) 查看在线版本。
 
 本书通过 mdbook 发布。
 
 # 介绍
 
-这是我在2012年学习 linux 的笔记。当前仅是linux基础部分，其它如多机房运维、集群等在中级篇(未发布)。
+这是我在2012年学习 Linux 的笔记。当前仅是linux基础部分，其它如多机房运维、集群等在中级篇(未发布)。
 
 我本身是做 java 开发的，但在当时(12年)，你会发现技术大会上面很少有讲 java 的，都是说架构、系统变迁等之类的。
 所以仅是学好 java 够了吗？他依赖的数据库，运行的环境，集群、架构等需不需要我们去学习。

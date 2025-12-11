@@ -9,6 +9,8 @@ comments: true
 
 容器（Docker / Kubernetes）环境下运行 Java 程序确实经常出现问题，原因并不是 Java 自身不兼容容器，而是 JVM 在容器内对资源的默认认知与实际情况不一致，导致各种性能、内存、CPU 的异常。
 
+<!-- more -->
+
 如果不正确配置，会导致：
 - JVM 默认按宿主机资源计算导致 OOM
 - GC 压力变大

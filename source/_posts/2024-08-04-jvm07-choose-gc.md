@@ -6,6 +6,10 @@ categories: jvm
 comments: true
 ---
 
+选择主要取决于你的应用对 “延迟（Latency）” 与 “吞吐量（Throughput）” 的权衡偏好
+
+<!-- more -->
+
 # 1 选择GC收集器
 串行收集器：
 --适用情况：数据量比较小（100M左右）；单处理器下并且对响应时间无要求的应用。
@@ -69,9 +73,10 @@ CPU 资源有限：G1 的并发开销比 ZGC 小，如果你的服务器 CPU 核
 使用最新 JDK：强烈建议在 JDK 21 或 JDK 25 (LTS) 以后使用 分代 ZGC (Generational ZGC)，它解决了旧版 ZGC 容易产生的堆碎片和分配速率限制问题。
 
 # 3.3 总结
-Jdk8在4g下（少核少内存）使用CMS算法，4核8g内存以上使用G1算法。如果对吞吐量有较高要求时，使用Parallel GC算法(JDK1.8默认)。
-Jdk9+上建议使用G1算法。
-Jdk17+如果对低延迟有要求，可使用ZGC算法。
+默认选 G1：如果应用运行平稳，没有明显的延迟抖动，不要随意更换。如果对吞吐量有较高要求时，使用Parallel GC算法(JDK1.8默认)。
+遇到延迟瓶颈换 ZGC：如果你发现 G1 的 Remark 或 Cleanup 阶段导致服务超时（如常见的 200ms+ 停顿），直接切换到分代 ZGC。
+小内存选 Serial：在极小的云原生容器（1核2G以下）中，Serial GC 往往比复杂的 G1 跑得更快。
+
 
 # 4 参考资料
 [Getting Started with the G1 Garbage Collector](https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html)

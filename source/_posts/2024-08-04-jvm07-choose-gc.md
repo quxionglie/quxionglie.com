@@ -1,5 +1,5 @@
 ---
-title: JVM - 06 java垃圾收集器：选择收集器
+title: JVM - 07 java垃圾收集器：选择收集器
 date: 2024-08-04 20:00:00
 tags:
 categories: jvm

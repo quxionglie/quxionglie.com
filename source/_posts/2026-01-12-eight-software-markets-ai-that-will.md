@@ -7,8 +7,8 @@ comments: true
 ---
 
 原文：[Dave Griffith : Eight Software Markets That AI Will Transform Differently](https://davegriffith.substack.com/p/eight-software-markets-ai-that-will)
-
-并非所有软件生来相同，也无法以相同的方式重新开发。
+                                    
+**并非所有软件生来相同，也无法以相同的方式重新开发。**
 
 克里斯·洛伊最近发表了一篇题为[《工业软件的崛起》](https://chrisloy.dev/post/2025/12/30/the-rise-of-industrial-software)的深思熟虑的文章，文中提出了关于智能编码工具将对软件生产的质量和数量产生何种影响的关键问题。他借鉴了杰文斯悖论——一个阐述市场如何改变生产成本的经济学理论——并指出其与农业、纺织业乃至印刷业市场变化的历史相似之处。他将这类软件称为“工业软件”，并预测软件产量将会增加，但质量会下降。
 

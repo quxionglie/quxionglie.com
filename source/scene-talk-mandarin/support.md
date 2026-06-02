@@ -1,6 +1,6 @@
 ---
 title: SceneTalk Mandarin Support
-date: 2026-05-18 15:50:00
+date: 2026-06-03 00:00:00
 ---
 
 # SceneTalk Mandarin Support
@@ -12,15 +12,19 @@ date: 2026-05-18 15:50:00
 **SceneTalk Mandarin**  
 **Subtitle:** Speak Chinese in Real Life
 
-SceneTalk Mandarin is an iOS app for learning practical Mandarin through real-life scenes. The app includes scenario-based dialogues, reusable expressions, listening practice, cultural notes, and background articles to help learners speak Chinese in everyday situations.
+SceneTalk Mandarin is an iOS app for learning practical Mandarin through real-life scenes. The app includes scenario-based dialogues, Key Expressions, listening practice, culture tips, and background articles to help learners speak Chinese in everyday situations.
 
-SceneTalk Mandarin helps Mandarin learners practice useful Chinese for situations such as greetings, asking for directions, taking transportation, ordering food, shopping, and daily communication. Each scene focuses on practical dialogue, key expressions, listening practice, and cultural context.
+SceneTalk Mandarin helps Mandarin learners practice useful Chinese for situations such as asking for directions, ordering food, shopping, visiting a clinic, taking transportation, and more. Each scene focuses on practical dialogue, Key Expressions, listening practice, and culture tips.
 
 ### Contact
 
 For support inquiries, please contact:
 
 - Email: `support@quxionglie.com`
+
+### Purchases
+
+The app may offer non-consumable in-app purchases for paid categories and Lifetime Access. Category purchases unlock all content in their respective categories. Lifetime Access unlocks all paid categories with one purchase. Payments and purchase restoration are handled by Apple through the App Store.
 
 ### Privacy Summary
 
@@ -41,15 +45,19 @@ Copyright 2026 xionglieq
 **SceneTalk Mandarin**  
 **副标题：** Speak Chinese in Real Life
 
-SceneTalk Mandarin 是一款面向中文学习者的 iOS 应用，帮助用户在真实生活场景中学习和练习中文。应用包含场景对话、可复用核心表达、听力练习、中文文化提示和背景文章，帮助学习者在日常情境中开口说中文。
+SceneTalk Mandarin 是一款面向中文学习者的 iOS 应用，帮助用户在真实生活场景中学习和练习中文。应用包含场景对话、可复用核心表达、听力练习、文化提示和背景文章，帮助学习者在日常情境中开口说中文。
 
-应用内容覆盖打招呼、问路、交通出行、点餐、购物和日常沟通等场景。每个场景都围绕实用对话、核心表达、听力练习和中文语境说明展开。
+应用内容覆盖问路、点餐、购物、看病、乘坐交通工具等场景。每个场景都围绕实用对话、核心表达、听力练习和文化提示展开。
 
 ### 联系方式
 
 如需支持，请联系：
 
 - Email: `support@quxionglie.com`
+
+### 购买项目
+
+本应用可能提供非消耗型 App 内购买项目，用于解锁付费分类和 Lifetime Access。分类购买项目会解锁对应分类下的所有内容。Lifetime Access 可一次性解锁所有付费分类。支付和恢复购买由 Apple 通过 App Store 处理。
 
 ### 隐私摘要
 
